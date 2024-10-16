@@ -1,0 +1,82 @@
+Package: rspamd
+Version: 3.10.0
+Architecture: amd64
+Maintainer: Vsevolod Stakhov <vsevolod@rspamd.com>
+Installed-Size: 14436
+Depends: adduser, lsb-base, ca-certificates, libarchive13t64 (>= 3.2.1), libbinutils (>= 2.43.1), libbinutils (<< 2.43.2), libc6 (>= 2.38), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.76.0), libhyperscan5 (>= 5.4.2), libicu72 (>= 72.1~rc-1~), libluajit-5.1-2 (>= 2.0.4) | libluajit-5.1-2 (>= 2.1.0+openresty), libpcre2-8-0 (>= 10.22), libsodium23 (>= 0.6.1), libsqlite3-0 (>= 3.7.15), libssl3t64 (>= 3.0.0), libstdc++6 (>= 13.1), zlib1g (>= 1:1.2.0)
+Conflicts: rspamd-asan
+Provides: rspamd
+Filename: amd64/rspamd_3.10.0_amd64.deb
+Size: 3876168
+MD5sum: f0756a45fe2264eb14b6a57c6af86f86
+SHA1: 4198e54d6c3e096031afd28aaf82c42b96ba7c50
+SHA256: a72a1af7e656d3dc030cbe247b63b990663513379b0d818f27239f9166be4d19
+Section: mail
+Priority: extra
+Homepage: https://rspamd.com
+Description: Rapid spam filtering system
+ Rspamd is a rapid, modular and lightweight spam filter. It is designed to work
+ with big amount of mail and can be easily extended with own filters written in
+ Lua.
+
+Package: rspamd-asan
+Source: rspamd
+Version: 3.10.0
+Architecture: amd64
+Maintainer: Vsevolod Stakhov <vsevolod@rspamd.com>
+Installed-Size: 30835
+Depends: adduser, lsb-base, ca-certificates, libarchive13t64 (>= 3.2.1), libbinutils (>= 2.43.1), libbinutils (<< 2.43.2), libc6 (>= 2.38), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.76.0), libhyperscan5 (>= 5.4.2), libicu72 (>= 72.1~rc-1~), libluajit-5.1-2 (>= 2.0.4) | libluajit-5.1-2 (>= 2.1.0+openresty), libpcre2-8-0 (>= 10.22), libsodium23 (>= 0.6.1), libsqlite3-0 (>= 3.7.15), libssl3t64 (>= 3.0.0), libstdc++6 (>= 13.1), zlib1g (>= 1:1.2.0)
+Conflicts: rspamd
+Provides: rspamd
+Filename: amd64/rspamd-asan_3.10.0_amd64.deb
+Size: 5579084
+MD5sum: e2f60efb63abfa95ac6e30179e80664e
+SHA1: b6c3d4074ecf844d0b817616214fb533881dc995
+SHA256: 82e17b81096611701587b42e62611236577d50f1c76b7663f8ccb70de77dc5ac
+Section: mail
+Priority: extra
+Homepage: https://rspamd.com
+Description: Rapid spam filtering system
+ Rspamd is a rapid, modular and lightweight spam filter. It is designed to work
+ with big amount of mail and can be easily extended with own filters written in
+ Lua. This package is build with no compile optimisations and with ASAN library
+ to be used when there is a need to debug Rspamd.
+
+Package: rspamd-asan-dbg
+Source: rspamd
+Version: 3.10.0
+Architecture: amd64
+Maintainer: Vsevolod Stakhov <vsevolod@rspamd.com>
+Installed-Size: 23439
+Depends: rspamd-asan (= 3.10.0)
+Filename: amd64/rspamd-asan-dbg_3.10.0_amd64.deb
+Size: 21215732
+MD5sum: d592125c97883f4f6da8b1486094165a
+SHA1: c61ab58ff3c80101df92f12e38aa5ccd268dfe68
+SHA256: 5790bb51b27f7907d4c50810fd594340cf560376d54e3d7e4d4f376a49786c17
+Section: debug
+Priority: extra
+Homepage: https://rspamd.com
+Description: debugging symbols for rspamd-asan
+ This package contains the debugging symbols for rspamd-asan.
+Build-Ids: 1782e1f272af3e6939f62a4f99ca84d469fd8cc3 43af3e618732b4cd83f143f9d4c413234043c17a 5c7e7188ad637da508b80347155f39216f5b233a 5ce9e86e92f15c8fbc210f75a18434c6d30f6233 5e10d316c86ad793477b7eb869cf13076383b01b 805f0d135e561854dac02a37cf9a014334b2c1b3 b7cf02b6648ea32ee7d1657b66dba33d7173dc18 d3eeb0b0b2215f62824a6c8ace8ee49a89631b1e
+
+Package: rspamd-dbg
+Source: rspamd
+Version: 3.10.0
+Architecture: amd64
+Maintainer: Vsevolod Stakhov <vsevolod@rspamd.com>
+Installed-Size: 19717
+Depends: rspamd (= 3.10.0)
+Filename: amd64/rspamd-dbg_3.10.0_amd64.deb
+Size: 18950712
+MD5sum: 7705c9002ed11d099282f39f8b527ae5
+SHA1: 9e6c47aaf1cd645eced58cf7f8df1a38b18e46e9
+SHA256: fc49ae27d743936413cef03df8a72f07769f44a6e91e717305f189f1a339c2aa
+Section: debug
+Priority: extra
+Homepage: https://rspamd.com
+Description: debugging symbols for rspamd
+ This package contains the debugging symbols for rspamd.
+Build-Ids: 19da0d3cb3a9d8c8efe30e04a1420971799ffde9 29a625731f6391fcb21354985be620b8a905470f 2dd3e8b52144a7297e24311efb74562962bd6dfd 2e2cbae1b6519dec14fa7a4238a5ba81db492f56 44eaa123d324b7543649ee452e074feeefe75cff 497247923e0299f9ce2b94b5750ab376f7478d1e 9b1ca3ce27e4891410aab4015e6a5364dc8e2c3d e9f0b6feac59480a2074f7482aa50d81bff9eef1
+
