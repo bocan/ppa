@@ -1,0 +1,96 @@
+Format: 1.8
+Date: Wed, 16 Oct 2024 17:52:28 +0000
+Source: rspamd
+Binary: rspamd rspamd-asan rspamd-asan-dbg rspamd-dbg
+Architecture: amd64
+Version: 3.10.0
+Distribution: unstable
+Urgency: low
+Maintainer: Vsevolod Stakhov <vsevolod@rspamd.com>
+Description:
+ rspamd     - Rapid spam filtering system
+ rspamd-asan - Rapid spam filtering system
+ rspamd-asan-dbg - debugging symbols for rspamd-asan
+ rspamd-dbg - debugging symbols for rspamd
+Changes:
+ rspamd (3.10.0) unstable; urgency=low
+ .
+   * [Conf] Add SenderScore RPBL return codes
+   * [Conf] Add SenderScore Reputationlist RBL
+   * [Conf] Increase scores for strange things in the archives
+   * [CritFix] The max size for signing key is actually 65 bytes for p256
+   * [Feature] Add rspamadm secretbox command
+   * [Feature] Add rspamd_cxx_unit_cryptobox for unit testing
+   * [Feature] Add support for OpenSSL 3.0
+   * [Feature] Add support for OpenSSL 3.0 for DKIM
+   * [Feature] Add tests for rspamd_cryptobox
+   * [Feature] Add tooling to encrypt strings in Lua
+   * [Feature] Allow differen modes for fuzzy rules
+   * [Feature] Allow to set negative group score limit via `min_score`
+   * [Feature] DMARC: Implement reporting.only_domains setting
+   * [Fix] Add workaround for the bug in OpenSSL < 3.0.8
+   * [Fix] Another fix for Redis schema
+   * [Fix] Another safe-guards for learning/classifying an empty message
+   * [Fix] Apply the same workaround for signing keys
+   * [Fix] Check message before trying to dereference pointer
+   * [Fix] Do not install doctest stuff
+   * [Fix] Encode headers that we send to milter add header
+   * [Fix] Fix DCC `rep` handling
+   * [Fix] Fix Redis scripts uploading when Redis is not ready
+   * [Fix] Fix and rework various parts
+   * [Fix] Fix compatibility with OSSL 1.0
+   * [Fix] Fix glib internals by setting locale in `rspamc`
+   * [Fix] GPT: Fix bug in condition check
+   * [Fix] Get rid of EVP_PKEY_CTX_set1_rsa_keygen_pubexp
+   * [Fix] Iterate over dynamic keys in fuzzy storage
+   * [Fix] Make tostring in UCL a bit less brain-damaged
+   * [Fix] More bogus sizes fix
+   * [Fix] Preserve the previous behaviour of RDNS_* checks
+   * [Fix] Rework DMARC to correctly handle spaces in DMARC records Issue: #4906
+   * [Fix] Sign key != encryption key, omg
+   * [Fix] Unify lua symbols registration
+   * [Fix] Use proper keys when doing asymmetric encryption
+   * [Project] Add API method to push unwrapped UCL object
+   * [Project] Add more stuff to transparent UCL
+   * [Project] Add parsing of key limits and expire date
+   * [Project] Add ratelimit parsing for fuzzy keys
+   * [Project] Allow manipulations with opaque UCL objects
+   * [Project] Allow to change log tag from HTTP request
+   * [Project] Implement expiration
+   * [Project] Implement per-key ratelimit
+   * [Project] Move ratelimit parsing stuff to a common library
+   * [Project] Remove NIST (OpenSSL) mode from cryptobox
+   * [Project] Remove NIST mode from everywhere
+   * [Project] Rework ratelimits check
+   * [Project] Some more fixes
+   * [Project] Start support of MIME UTF8
+   * [Project] Try to allow more transparent access of ucl elements
+   * [Rework] Allow more flexible keypair encoding
+   * [Rework] Breaking: Rewrite cfg transform and remove legacy
+   * [Rework] Change fuzzy error symbols
+   * [Rework] Change the logic of skipping symbols
+   * [Rework] Clean up legacy code
+   * [Rework] Implement new replies logic on the server's side
+   * [Rework] Remove control block support
+   * [Rework] Resolve rdns in a separate function
+   * [Rework] Use __builtin_cpu_supports where possible
+   * [Rework] Use a more straight structure for DKIM keys
+   * [Rules] Fix some old rules
+Checksums-Sha1:
+ c61ab58ff3c80101df92f12e38aa5ccd268dfe68 21215732 rspamd-asan-dbg_3.10.0_amd64.deb
+ b6c3d4074ecf844d0b817616214fb533881dc995 5579084 rspamd-asan_3.10.0_amd64.deb
+ 9e6c47aaf1cd645eced58cf7f8df1a38b18e46e9 18950712 rspamd-dbg_3.10.0_amd64.deb
+ 75391042f750ff6112279f1c01ff0bb01dd503d7 8645 rspamd_3.10.0_amd64.buildinfo
+ 4198e54d6c3e096031afd28aaf82c42b96ba7c50 3876168 rspamd_3.10.0_amd64.deb
+Checksums-Sha256:
+ 5790bb51b27f7907d4c50810fd594340cf560376d54e3d7e4d4f376a49786c17 21215732 rspamd-asan-dbg_3.10.0_amd64.deb
+ 82e17b81096611701587b42e62611236577d50f1c76b7663f8ccb70de77dc5ac 5579084 rspamd-asan_3.10.0_amd64.deb
+ fc49ae27d743936413cef03df8a72f07769f44a6e91e717305f189f1a339c2aa 18950712 rspamd-dbg_3.10.0_amd64.deb
+ 90d28457af0e1cf4e08f8065dbff8cc5661038de2f65d59955d27e4ae930af09 8645 rspamd_3.10.0_amd64.buildinfo
+ a72a1af7e656d3dc030cbe247b63b990663513379b0d818f27239f9166be4d19 3876168 rspamd_3.10.0_amd64.deb
+Files:
+ d592125c97883f4f6da8b1486094165a 21215732 debug extra rspamd-asan-dbg_3.10.0_amd64.deb
+ e2f60efb63abfa95ac6e30179e80664e 5579084 mail extra rspamd-asan_3.10.0_amd64.deb
+ 7705c9002ed11d099282f39f8b527ae5 18950712 debug extra rspamd-dbg_3.10.0_amd64.deb
+ 4ecf68cab61fec88687af966f34b6a23 8645 mail extra rspamd_3.10.0_amd64.buildinfo
+ f0756a45fe2264eb14b6a57c6af86f86 3876168 mail extra rspamd_3.10.0_amd64.deb
