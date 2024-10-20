@@ -21,3 +21,9 @@ apt-ftparchive release . > Release
 KEYNAME="chris@funderburg.me"
 rm -fr Release.gpg; gpg --default-key ${KEYNAME} -abs -o Release.gpg Release
 rm -fr InRelease; gpg --default-key ${KEYNAME} --clearsign -o InRelease Release
+
+
+    curl -sSfL https://bocan.github.io/ppa/KEY.gpg | gpg --dearmor >/etc/apt/trusted.gpg.d/rspamd.gpg
+    echo \
+      "deb [signed-by=/etc/apt/trusted.gpg.d/rspamd.gpg] https://bocan.github.io/ppa/ ./" \
+      >/etc/apt/sources.list.d/rspamd.list
