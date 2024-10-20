@@ -1,17 +1,15 @@
 Format: 1.8
-Date: Wed, 16 Oct 2024 17:52:28 +0000
+Date: Sun, 20 Oct 2024 00:54:49 +0000
 Source: rspamd
-Binary: rspamd rspamd-asan rspamd-asan-dbg rspamd-dbg
-Architecture: amd64
+Binary: rspamd
+Architecture: source amd64
 Version: 3.10.0
 Distribution: unstable
 Urgency: low
-Maintainer: Vsevolod Stakhov <vsevolod@rspamd.com>
+Maintainer: Chris Funderburg <chris@funderburg.me>
+Changed-By: Chris Funderburg <chris@funderburg.me>
 Description:
  rspamd     - Rapid spam filtering system
- rspamd-asan - Rapid spam filtering system
- rspamd-asan-dbg - debugging symbols for rspamd-asan
- rspamd-dbg - debugging symbols for rspamd
 Changes:
  rspamd (3.10.0) unstable; urgency=low
  .
@@ -77,20 +75,17 @@ Changes:
    * [Rework] Use a more straight structure for DKIM keys
    * [Rules] Fix some old rules
 Checksums-Sha1:
- c61ab58ff3c80101df92f12e38aa5ccd268dfe68 21215732 rspamd-asan-dbg_3.10.0_amd64.deb
- b6c3d4074ecf844d0b817616214fb533881dc995 5579084 rspamd-asan_3.10.0_amd64.deb
- 9e6c47aaf1cd645eced58cf7f8df1a38b18e46e9 18950712 rspamd-dbg_3.10.0_amd64.deb
- 75391042f750ff6112279f1c01ff0bb01dd503d7 8645 rspamd_3.10.0_amd64.buildinfo
- 4198e54d6c3e096031afd28aaf82c42b96ba7c50 3876168 rspamd_3.10.0_amd64.deb
+ 4c685407b1632c00eda3fdb52cd994105764e819 1008 rspamd_3.10.0.dsc
+ edb689723143d87fb00106003cdb86877879bc99 4605328 rspamd_3.10.0.tar.xz
+ 99521c87fe5d73214a7fad557213094b9958b280 8589 rspamd_3.10.0_amd64.buildinfo
+ cbd29d092630607cce8155ccd5e62f45e81dd59c 3877912 rspamd_3.10.0_amd64.deb
 Checksums-Sha256:
- 5790bb51b27f7907d4c50810fd594340cf560376d54e3d7e4d4f376a49786c17 21215732 rspamd-asan-dbg_3.10.0_amd64.deb
- 82e17b81096611701587b42e62611236577d50f1c76b7663f8ccb70de77dc5ac 5579084 rspamd-asan_3.10.0_amd64.deb
- fc49ae27d743936413cef03df8a72f07769f44a6e91e717305f189f1a339c2aa 18950712 rspamd-dbg_3.10.0_amd64.deb
- 90d28457af0e1cf4e08f8065dbff8cc5661038de2f65d59955d27e4ae930af09 8645 rspamd_3.10.0_amd64.buildinfo
- a72a1af7e656d3dc030cbe247b63b990663513379b0d818f27239f9166be4d19 3876168 rspamd_3.10.0_amd64.deb
+ 414726f2b9d3dd94283296589d4a3b6d3ba73fce3d780e02f5c0d77c67f44b38 1008 rspamd_3.10.0.dsc
+ b387c1dff9d947c2c799d34a37a1e6f79f9b4b26970f2deea9230732137a015d 4605328 rspamd_3.10.0.tar.xz
+ 6039ff7cbec9b358be03feb5ad3678449e7508385d2680bb0b5d1162e712b82b 8589 rspamd_3.10.0_amd64.buildinfo
+ 117221b91eded42332704a74c16e8533ec578658d7edc3d7abebb2bdb5b047bd 3877912 rspamd_3.10.0_amd64.deb
 Files:
- d592125c97883f4f6da8b1486094165a 21215732 debug extra rspamd-asan-dbg_3.10.0_amd64.deb
- e2f60efb63abfa95ac6e30179e80664e 5579084 mail extra rspamd-asan_3.10.0_amd64.deb
- 7705c9002ed11d099282f39f8b527ae5 18950712 debug extra rspamd-dbg_3.10.0_amd64.deb
- 4ecf68cab61fec88687af966f34b6a23 8645 mail extra rspamd_3.10.0_amd64.buildinfo
- f0756a45fe2264eb14b6a57c6af86f86 3876168 mail extra rspamd_3.10.0_amd64.deb
+ d7b5751e16d63319949656d06a2c1a9d 1008 mail optional rspamd_3.10.0.dsc
+ 1581351adc00ae7d1bad753525e61e46 4605328 mail optional rspamd_3.10.0.tar.xz
+ bb5ca2b77e4478b569d8835d944a88f6 8589 mail optional rspamd_3.10.0_amd64.buildinfo
+ 10941108995653b1db00e4b17b3c358f 3877912 mail optional rspamd_3.10.0_amd64.deb
