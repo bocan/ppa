@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 Format: 1.8
 Date: Wed, 23 Oct 2024 08:24:30 +0000
 Source: rspamd
@@ -16,17 +19,35 @@ Changes:
    * [CritFix] Fix ARC-Seal signing
    * [Fix] add EOF to openmetrics response in proxy and server
 Checksums-Sha1:
- 3eae589fca7d9c3733f1cd8fcea80d40c94e78eb 1014 rspamd_3.10.2.dsc
+ b259b7f4883bec1c8d0e7559a62244e5e61412ac 1926 rspamd_3.10.2.dsc
  75b7fc1826d3a463617a160c78f332aefb939068 4604988 rspamd_3.10.2.tar.xz
- d88445845c8dc79c3ec3bf19d3038b59aaf02ee6 8591 rspamd_3.10.2_amd64.buildinfo
+ f99870dc6c9ae3de624305a0b9341cd73c7136fd 9503 rspamd_3.10.2_amd64.buildinfo
  10dbcd40b39e9f43b07a21c2badafab024db4769 3875520 rspamd_3.10.2_amd64.deb
 Checksums-Sha256:
- f4f4634d934fde67e4d1279c4dd69f6ae670d3c2d99536ce14a6240b0434019f 1014 rspamd_3.10.2.dsc
+ f3d9d5d00f6d714f9817350a48558582016b80c4903d40dde165c5c8e6a8502c 1926 rspamd_3.10.2.dsc
  1304f1f92bdbee1c2ac0d50564be693ed234c78f452a25291edb71ee8f8fe9ca 4604988 rspamd_3.10.2.tar.xz
- bff1a38bf388e0c702e5426133edcafe9b8a3b318baa5033f7b8107289fd5ed0 8591 rspamd_3.10.2_amd64.buildinfo
+ 06ffd9e85bf78f52861bc6fc6b86d298b700ab35306985365885055492b7f219 9503 rspamd_3.10.2_amd64.buildinfo
  b514dda9d1cd539bd7cc411d901d4cdb58c4a2e163e6ed904017f279b22338be 3875520 rspamd_3.10.2_amd64.deb
 Files:
- 145f49f2d146fce37e9b9c92684d7e72 1014 mail optional rspamd_3.10.2.dsc
+ d1edae1d2cda546b2eeb2f27441ee4b9 1926 mail optional rspamd_3.10.2.dsc
  0c0c85cd65cccc574946ac75106bad52 4604988 mail optional rspamd_3.10.2.tar.xz
- 40e5b13e859c164961fb4323ef14da26 8591 mail optional rspamd_3.10.2_amd64.buildinfo
+ e51be342014218eb06448ae98c6ef5ad 9503 mail optional rspamd_3.10.2_amd64.buildinfo
  264c02a8e82177615c98a431f5de3cd0 3875520 mail optional rspamd_3.10.2_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJIBAEBCgAyFiEER+82S+NsDjL6n9dudbLPYBx57vsFAmcYt24UHGNocmlzQGZ1
+bmRlcmJ1cmcubWUACgkQdbLPYBx57vsFzhAAueoFXuZ8hhAa4rtUHYVZ6pRoU6Vm
+H4fpBL0jwKdBkyMhz3xgoTSwi5znMuAJWGNMDolH3nFsegEkKZF7hARLNf7dtder
+Lb5TOfwfqoOsRDyDT6XHvmZDtU6e42p+1cBmmHQYEnh7jMy8mt6/i+1BD/do30In
+LU22oZk9QssUxT42s6hMxjuAqze17ToV6YDgkO2rokKbskaB519ZPdfszsfsJvk0
+shS3Th0PdgZAOdJw6cOfJhDlgxSx3RqD4FlfjaUI6H0VP01pP4cpkOeRGLpoCSmv
+guyXhoGJAtgMz/rTqu+S7Y3dWQBuce3AlbKIQL0H/aI9jUzGbLsS4/k1ccdqtRsQ
+kvgo1Hek4J317KCmP2n7udOPBxGkYr+DvoiE++2FSiTT+yO6UlksRN5JtV+0LHk6
+GZBgL/FJ9bBOSHr3ZaahcyAB0kMgG7pCz+ImmE8bk5iUUjszcA9Rq+9hVqK1tYcj
+cs4uuWuzw1909efyy8BmtOupKx3QaIUIf5juzNS8OBq3kGxxmJ50VL0P7M/fvH4z
+mr3lXCOBY9EqR7Lz8Fb6hJQUlEwF8dphdJR7KotNU45PJ3yo4dHFbo3sQCG0KykB
+5V+J6fb2oE4Zg2T5FDoEMyufHUgpqfA3Kxy1AaoNSl0BcdjMSBi47i5MNCaXv1bw
+NG3F5msNTgz0EdE=
+=HNCN
+-----END PGP SIGNATURE-----

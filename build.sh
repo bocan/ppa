@@ -3,10 +3,17 @@
 # This is a work in progress...
 #
 
-apt install apt-utils
+## GOLD and Working:
+apt install apt-utils devscripts debsigs
+debsign *changes
+debsigs --sign=origin  *deb
 
+## TO BE DECIDED:
 dpkg-scanpackages -a amd64 amd64  > Packages
+dpkg-scansources amd64 > Sources
+
 gzip -k -f Packages
+gzip -k -f Sources
 
 apt-ftparchive release . > Release
 

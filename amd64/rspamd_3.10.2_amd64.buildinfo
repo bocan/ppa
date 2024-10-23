@@ -1,16 +1,19 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 Format: 1.0
 Source: rspamd
 Binary: rspamd
 Architecture: amd64 source
 Version: 3.10.2
 Checksums-Md5:
- 145f49f2d146fce37e9b9c92684d7e72 1014 rspamd_3.10.2.dsc
+ d1edae1d2cda546b2eeb2f27441ee4b9 1926 rspamd_3.10.2.dsc
  264c02a8e82177615c98a431f5de3cd0 3875520 rspamd_3.10.2_amd64.deb
 Checksums-Sha1:
- 3eae589fca7d9c3733f1cd8fcea80d40c94e78eb 1014 rspamd_3.10.2.dsc
+ b259b7f4883bec1c8d0e7559a62244e5e61412ac 1926 rspamd_3.10.2.dsc
  10dbcd40b39e9f43b07a21c2badafab024db4769 3875520 rspamd_3.10.2_amd64.deb
 Checksums-Sha256:
- f4f4634d934fde67e4d1279c4dd69f6ae670d3c2d99536ce14a6240b0434019f 1014 rspamd_3.10.2.dsc
+ f3d9d5d00f6d714f9817350a48558582016b80c4903d40dde165c5c8e6a8502c 1926 rspamd_3.10.2.dsc
  b514dda9d1cd539bd7cc411d901d4cdb58c4a2e163e6ed904017f279b22338be 3875520 rspamd_3.10.2_amd64.deb
 Build-Origin: Debian
 Build-Architecture: amd64
@@ -295,3 +298,21 @@ Environment:
  DEB_BUILD_OPTIONS="noautodbgsym parallel=4"
  LANG="C.UTF-8"
  SOURCE_DATE_EPOCH="1729671870"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJIBAEBCgAyFiEER+82S+NsDjL6n9dudbLPYBx57vsFAmcYt20UHGNocmlzQGZ1
+bmRlcmJ1cmcubWUACgkQdbLPYBx57vseuQ//f+qGwtLckfOWQp+SV4URPJ43DUjy
+Vn9JmeOJGfZe9I7VvSV6fMvnbm/GK7alRSbsMCc3LVzUv5kic/lG9OeXgkzK+jmb
+lNMBorXoM1yMblxVUbkTPX3v7okomQP8NQrmytQmonbZOJ+I8szk46KW2PHzF/9o
+avZdCGKaAOVt16FpprtPk82vO5vR82rz4W1qj53IKV0rc9SQB98/WpPhNXnA4TaD
+8j9xGwFWM5CxYa7qwy8bwrgQRYO6gymBZzZSTnQveLrbNiI7MuWsEGIiYUQf0MIt
+LAdw1WExZzJV6ZriouTcRdMsy0LBFlRLj2wujzjP5hwnoP3jxtiEext/lGXTMTPe
+wDI0lkwlavqzPfFNLwVMcLt4CUURJNlczzfhc/8e5DJBMgtu/qfmT+iwmhO10zyX
+ytTw6Ke9ndXalqW4FkRuAj4PYRISIfJrRt90FdlcKfBS3n0rLDW7DxytmjXeSELM
+FWSiQtbMJXVDW9jw2547lcXOWJ+/6pMp8IeoxpbdQVbElSbCMvcXwmkADnyk/gTN
+7STV2Xu9Mf5/L8WYhVsCJySIStf487grJLg7irx+WtU7ldaOhAPidIX/jG7vL1+I
+ZqndgD79ok0H1DNbBuB5p6SQIvCUOcb0HI0bg4lerWMyVlee1qJP59FYikcI5cVZ
+Epa6CQAPYCy43KU=
+=26Tz
+-----END PGP SIGNATURE-----
