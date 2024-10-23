@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Wed, 23 Oct 2024 08:24:30 +0000
+Source: rspamd
+Binary: rspamd
+Architecture: source amd64
+Version: 3.10.2
+Distribution: unstable
+Urgency: low
+Maintainer: Christopher Funderburg <chris@funderburg.me>
+Changed-By: Christopher Funderburg <chris@funderburg.me>
+Description:
+ rspamd     - Rapid spam filtering system
+Changes:
+ rspamd (3.10.2) unstable; urgency=low
+ .
+   * [CritFix] Fix ARC-Seal signing
+   * [Fix] add EOF to openmetrics response in proxy and server
+Checksums-Sha1:
+ 3eae589fca7d9c3733f1cd8fcea80d40c94e78eb 1014 rspamd_3.10.2.dsc
+ 75b7fc1826d3a463617a160c78f332aefb939068 4604988 rspamd_3.10.2.tar.xz
+ d88445845c8dc79c3ec3bf19d3038b59aaf02ee6 8591 rspamd_3.10.2_amd64.buildinfo
+ 10dbcd40b39e9f43b07a21c2badafab024db4769 3875520 rspamd_3.10.2_amd64.deb
+Checksums-Sha256:
+ f4f4634d934fde67e4d1279c4dd69f6ae670d3c2d99536ce14a6240b0434019f 1014 rspamd_3.10.2.dsc
+ 1304f1f92bdbee1c2ac0d50564be693ed234c78f452a25291edb71ee8f8fe9ca 4604988 rspamd_3.10.2.tar.xz
+ bff1a38bf388e0c702e5426133edcafe9b8a3b318baa5033f7b8107289fd5ed0 8591 rspamd_3.10.2_amd64.buildinfo
+ b514dda9d1cd539bd7cc411d901d4cdb58c4a2e163e6ed904017f279b22338be 3875520 rspamd_3.10.2_amd64.deb
+Files:
+ 145f49f2d146fce37e9b9c92684d7e72 1014 mail optional rspamd_3.10.2.dsc
+ 0c0c85cd65cccc574946ac75106bad52 4604988 mail optional rspamd_3.10.2.tar.xz
+ 40e5b13e859c164961fb4323ef14da26 8591 mail optional rspamd_3.10.2_amd64.buildinfo
+ 264c02a8e82177615c98a431f5de3cd0 3875520 mail optional rspamd_3.10.2_amd64.deb
