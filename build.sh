@@ -7,8 +7,8 @@
 apt install apt-utils devscripts debsigs
 debsign *changes
 debsigs --sign=origin  *deb
-dpkg-scanpackages -a amd64 amd64  > Packages
-dpkg-scansources > Sources
+dpkg-scanpackages .  > Packages
+dpkg-scansources . > Sources
 gzip -k -f Packages
 gzip -k -f Sources
 

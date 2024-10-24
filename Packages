@@ -5,7 +5,7 @@ Maintainer: Christopher Funderburg <chris@funderburg.me>
 Installed-Size: 14435
 Depends: adduser, ca-certificates, libjs-bootstrap, libjs-d3, libjs-jquery, libjs-requirejs, lsb-base, libarchive13t64 (>= 3.2.1), libbinutils (>= 2.43.1), libbinutils (<< 2.43.2), libc6 (>= 2.38), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.76.0), libhyperscan5 (>= 5.4.2), libicu72 (>= 72.1~rc-1~), libluajit-5.1-2 (>= 2.0.4) | libluajit-5.1-2 (>= 2.1.0+openresty), libpcre2-8-0 (>= 10.22), libsodium23 (>= 0.6.1), libsqlite3-0 (>= 3.7.15), libssl3t64 (>= 3.0.0), libstdc++6 (>= 13.1), zlib1g (>= 1:1.2.0)
 Provides: rspamd
-Filename: amd64/rspamd_3.10.2_amd64.deb
+Filename: ./amd64/rspamd_3.10.2_amd64.deb
 Size: 3876146
 MD5sum: 31bce3cf36db1669a0ce4afcb085e415
 SHA1: 49415aeb9b398385ae94aa67a1fa4b5bace6dc5b
